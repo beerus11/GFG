@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//Complexity O(d*n)
 int rotate(int *arr, int len, int d){
     while(d--){
         int temp = arr[0];
